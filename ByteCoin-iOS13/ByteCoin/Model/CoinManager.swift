@@ -20,7 +20,7 @@ struct CoinManager {
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
     
     func getCoinPrice(for currency: String) {
-        let url = baseURL + "\(currency)?apikey=2DC64061-A6CD-4881-830B-368D1048C1C8"
+        let url = baseURL + "\(currency)?apikey=(key)"
         performRequest(with: url)
     }
     
